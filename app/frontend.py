@@ -30,7 +30,7 @@ if 'last_question' not in st.session_state:
 if 'auth_token' not in st.session_state:
     st.session_state.auth_token = "test_token"
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://enterprise-rag-backend-pzgr.onrender.com"
 
 # ============================================
 # ENTERPRISE CSS
